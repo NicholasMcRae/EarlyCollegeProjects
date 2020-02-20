@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectLauncher", "ProjectLauncher\ProjectLauncher.vcxproj", "{F12DF9C8-90D0-47FB-A022-5AFBC2B8D98D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindExtension", "FindExtension\FindExtension.vcxproj", "{C30C4083-D14C-4A57-9A17-35A988440273}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F12DF9C8-90D0-47FB-A022-5AFBC2B8D98D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F12DF9C8-90D0-47FB-A022-5AFBC2B8D98D}.Debug|Win32.Build.0 = Debug|Win32
+		{F12DF9C8-90D0-47FB-A022-5AFBC2B8D98D}.Release|Win32.ActiveCfg = Release|Win32
+		{F12DF9C8-90D0-47FB-A022-5AFBC2B8D98D}.Release|Win32.Build.0 = Release|Win32
+		{C30C4083-D14C-4A57-9A17-35A988440273}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C30C4083-D14C-4A57-9A17-35A988440273}.Debug|Win32.Build.0 = Debug|Win32
+		{C30C4083-D14C-4A57-9A17-35A988440273}.Release|Win32.ActiveCfg = Release|Win32
+		{C30C4083-D14C-4A57-9A17-35A988440273}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

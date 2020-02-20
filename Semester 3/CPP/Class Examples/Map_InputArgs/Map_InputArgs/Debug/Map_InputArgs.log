@@ -1,0 +1,20 @@
+﻿Build started 18/02/2012 6:25:00 PM.
+     1>Project "C:\CPlusPlus\Map_InputArgs\Map_InputArgs\Map_InputArgs.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Map_InputArgs.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Map_InputArgs.unsuccessfulbuild".
+         Touching "Debug\Map_InputArgs.lastbuildstate".
+     1>Done Building Project "C:\CPlusPlus\Map_InputArgs\Map_InputArgs\Map_InputArgs.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

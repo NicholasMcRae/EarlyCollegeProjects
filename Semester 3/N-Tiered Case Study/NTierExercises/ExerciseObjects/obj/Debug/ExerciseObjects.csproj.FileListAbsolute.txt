@@ -1,0 +1,6 @@
+C:\CSDatabaseTwo\NTierExercises\ExerciseObjects\bin\Debug\ExerciseObjects.dll
+C:\CSDatabaseTwo\NTierExercises\ExerciseObjects\bin\Debug\ExerciseObjects.pdb
+C:\CSDatabaseTwo\NTierExercises\ExerciseObjects\obj\Debug\ExerciseObjects.dll
+C:\CSDatabaseTwo\NTierExercises\ExerciseObjects\obj\Debug\ExerciseObjects.pdb
+C:\CSDatabaseTwo\NTierExercises\ExerciseObjects\bin\Debug\ExerciseObjects.dll.config
+C:\CSDatabaseTwo\NTierExercises\ExerciseObjects\obj\Debug\ExerciseObjects.csprojResolveAssemblyReference.cache

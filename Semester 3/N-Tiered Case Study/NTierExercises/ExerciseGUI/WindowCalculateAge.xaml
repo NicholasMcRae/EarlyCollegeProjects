@@ -1,0 +1,11 @@
+﻿<Window x:Class="WindowCalculateAge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="WindowCalculateAge" Height="319" Width="631">
+    <Grid Height="264" Width="281">
+        <Label Content="Enter Age" Height="28" HorizontalAlignment="Left" Margin="61,70,0,0" Name="Label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="129,70,0,0" Name="textBoxInput" VerticalAlignment="Top" Width="120" />
+        <Button Content="Calculate" Height="23" HorizontalAlignment="Left" Margin="110,110,0,0" Name="Button1" VerticalAlignment="Top" Width="75" />
+        <Label Height="59" HorizontalAlignment="Left" Margin="-98,139,0,0" Name="labelStatus" VerticalAlignment="Top" Width="464" />
+    </Grid>
+</Window>

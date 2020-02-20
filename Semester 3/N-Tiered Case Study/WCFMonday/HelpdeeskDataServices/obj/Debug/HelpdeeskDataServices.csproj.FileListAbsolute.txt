@@ -1,0 +1,6 @@
+C:\CSDatabaseTwo\WCFMonday\HelpdeeskDataServices\bin\Debug\HelpdeeskDataServices.dll.config
+C:\CSDatabaseTwo\WCFMonday\HelpdeeskDataServices\bin\Debug\HelpdeeskDataServices.dll
+C:\CSDatabaseTwo\WCFMonday\HelpdeeskDataServices\bin\Debug\HelpdeeskDataServices.pdb
+C:\CSDatabaseTwo\WCFMonday\HelpdeeskDataServices\obj\Debug\HelpdeeskDataServices.dll
+C:\CSDatabaseTwo\WCFMonday\HelpdeeskDataServices\obj\Debug\HelpdeeskDataServices.pdb
+C:\CSDatabaseTwo\WCFMonday\HelpdeeskDataServices\obj\Debug\HelpdeeskDataServices.csprojResolveAssemblyReference.cache

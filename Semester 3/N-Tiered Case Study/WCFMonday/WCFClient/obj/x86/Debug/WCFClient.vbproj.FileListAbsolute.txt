@@ -1,0 +1,14 @@
+C:\CSDatabaseTwo\WCFMonday\WCFClient\bin\Debug\WCFClient.exe.config
+C:\CSDatabaseTwo\WCFMonday\WCFClient\bin\Debug\WCFClient.exe
+C:\CSDatabaseTwo\WCFMonday\WCFClient\bin\Debug\WCFClient.pdb
+C:\CSDatabaseTwo\WCFMonday\WCFClient\bin\Debug\WCFClient.xml
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\MainWindow.baml
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\MainWindow.g.vb
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\Application.g.vb
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\WCFClient_MarkupCompile.cache
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\WCFClient.g.resources
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\WCFClient.Resources.resources
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\WCFClient.vbproj.GenerateResource.Cache
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\WCFClient.exe
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\WCFClient.xml
+C:\CSDatabaseTwo\WCFMonday\WCFClient\obj\x86\Debug\WCFClient.pdb

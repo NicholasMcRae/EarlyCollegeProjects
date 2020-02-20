@@ -1,0 +1,6 @@
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskDataServices\bin\Debug\HelpdeskDataServices.dll.config
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskDataServices\bin\Debug\HelpdeskDataServices.dll
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskDataServices\bin\Debug\HelpdeskDataServices.pdb
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskDataServices\obj\Debug\HelpdeskDataServices.dll
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskDataServices\obj\Debug\HelpdeskDataServices.pdb
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskDataServices\obj\Debug\HelpdeskDataServices.csprojResolveAssemblyReference.cache

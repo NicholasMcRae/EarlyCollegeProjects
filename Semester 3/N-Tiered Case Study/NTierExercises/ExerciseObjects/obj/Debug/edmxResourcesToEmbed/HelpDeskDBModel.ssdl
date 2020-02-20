@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HelpDeskDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="HelpDeskDBModelStoreContainer">
+    <EntitySet Name="Departments" EntityType="HelpDeskDBModel.Store.Departments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Employees" EntityType="HelpDeskDBModel.Store.Employees" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Problems" EntityType="HelpDeskDBModel.Store.Problems" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_EmployeeInDept" Association="HelpDeskDBModel.Store.FK_EmployeeInDept">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="DepartmentID" />
+    </Key>
+    <Property Name="DepartmentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="varchar" MaxLength="4" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="PhoneNo" Type="varchar" MaxLength="25" />
+    <Property Name="Email" Type="varchar" MaxLength="50" />
+    <Property Name="DepartmentID" Type="int" Nullable="false" />
+    <Property Name="Timer" Type="timestamp" Nullable="false" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="Problems">
+    <Key>
+      <PropertyRef Name="ProblemID" />
+    </Key>
+    <Property Name="ProblemID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_EmployeeInDept">
+    <End Role="Departments" Type="HelpDeskDBModel.Store.Departments" Multiplicity="1" />
+    <End Role="Employees" Type="HelpDeskDBModel.Store.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="DepartmentID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="DepartmentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="pGetDepartmentInfoForEmployee" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="empID" Type="int" Mode="In" />
+    <Parameter Name="deptID" Type="int" Mode="InOut" />
+    <Parameter Name="deptName" Type="varchar" Mode="InOut" />
+  </Function>
+  <Function Name="pGetDepartmentInfoForEmployeeTwo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="empID" Type="int" Mode="In" />
+    <Parameter Name="deptID" Type="int" Mode="InOut" />
+    <Parameter Name="deptName" Type="varchar" Mode="InOut" />
+    <Parameter Name="empSurname" Type="varchar" Mode="InOut" />
+  </Function>
+  <Function Name="pGetEmployeeFullNames" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="pGetEmployeeFullNamesInDept" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="dept" Type="int" Mode="In" />
+  </Function>
+  <Function Name="pGetInfoLabFive" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="empID" Type="int" Mode="In" />
+    <Parameter Name="deptName" Type="varchar" Mode="InOut" />
+    <Parameter Name="empSurname" Type="varchar" Mode="InOut" />
+  </Function>
+</Schema>

@@ -1,0 +1,10 @@
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\bin\Debug\ExampleControl1.dll
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\bin\Debug\ExampleControl1.pdb
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\obj\Debug\Info3070Clock.baml
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\obj\Debug\Info3070Clock.g.cs
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\obj\Debug\ExampleControl1_MarkupCompile.cache
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\obj\Debug\ExampleControl1.g.resources
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\obj\Debug\ExampleControl1.Properties.Resources.resources
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\obj\Debug\ExampleControl1.csproj.GenerateResource.Cache
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\obj\Debug\ExampleControl1.dll
+C:\CSDatabaseTwo\HelpdeskCase2\ExampleControl1\obj\Debug\ExampleControl1.pdb

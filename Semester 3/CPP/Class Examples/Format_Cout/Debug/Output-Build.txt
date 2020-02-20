@@ -1,0 +1,13 @@
+﻿1>------ Build started: Project: Format_Cout, Configuration: Debug Win32 ------
+1>Build started 16/02/2012 4:14:08 PM.
+1>InitializeBuildStatus:
+1>  Touching "Debug\Format_Cout.unsuccessfulbuild".
+1>ManifestResourceCompile:
+1>  All outputs are up-to-date.
+1>LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+1>C:\CPlusPlus\Format_Cout\Debug\Format_Cout.exe : fatal error LNK1120: 1 unresolved externals
+1>
+1>Build FAILED.
+1>
+1>Time Elapsed 00:00:00.21
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

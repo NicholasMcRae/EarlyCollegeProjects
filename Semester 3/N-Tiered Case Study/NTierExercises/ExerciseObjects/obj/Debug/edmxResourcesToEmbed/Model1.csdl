@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HelpDeskDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="HelpDeskDBEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departments" EntityType="HelpDeskDBModel.Department" />
+    <EntitySet Name="Employees" EntityType="HelpDeskDBModel.Employee" />
+    <EntitySet Name="Problems" EntityType="HelpDeskDBModel.Problem" />
+    <AssociationSet Name="FK_EmployeeInDept" Association="HelpDeskDBModel.FK_EmployeeInDept">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <FunctionImport Name="GetInfoLabSix">
+      <Parameter Name="empID" Mode="In" Type="Int32" />
+      <Parameter Name="deptID" Mode="InOut" Type="Int32" />
+      <Parameter Name="deptName" Mode="InOut" Type="String" />
+      <Parameter Name="empSurname" Mode="InOut" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GetInfoLabFive">
+      <Parameter Name="empID" Mode="In" Type="Int32" />
+      <Parameter Name="deptName" Mode="InOut" Type="String" />
+      <Parameter Name="empSurname" Mode="InOut" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DepartmentID" />
+    </Key>
+    <Property Name="DepartmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Employees" Relationship="HelpDeskDBModel.FK_EmployeeInDept" FromRole="Departments" ToRole="Employees" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="4" Unicode="false" FixedLength="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PhoneNo" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DepartmentID" Type="Int32" Nullable="false" />
+    <Property Name="Timer" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" ConcurrencyMode="Fixed" />
+    <NavigationProperty Name="Department" Relationship="HelpDeskDBModel.FK_EmployeeInDept" FromRole="Employees" ToRole="Departments" />
+  </EntityType>
+  <EntityType Name="Problem">
+    <Key>
+      <PropertyRef Name="ProblemID" />
+    </Key>
+    <Property Name="ProblemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_EmployeeInDept">
+    <End Role="Departments" Type="HelpDeskDBModel.Department" Multiplicity="1" />
+    <End Role="Employees" Type="HelpDeskDBModel.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="DepartmentID" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="DepartmentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

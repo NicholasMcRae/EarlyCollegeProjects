@@ -1,0 +1,17 @@
+﻿Build started 16/02/2012 4:30:02 PM.
+     1>Project "C:\CPlusPlus\Read_Arguments\Read_Arguments\Read_Arguments.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\CPlusPlus\Read_Arguments\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Read_Arguments.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Read_Arguments.exe.embed.manifest.res" Debug\Read_Arguments_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\CPlusPlus\Read_Arguments\Debug\Read_Arguments.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Read_Arguments.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\CPlusPlus\Read_Arguments\Debug\Read_Arguments.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\CPlusPlus\Read_Arguments\Debug\Read_Arguments.lib" /MACHINE:X86 Debug\Read_Arguments.exe.embed.manifest.res
+     1>LINK : error LNK2001: unresolved external symbol _mainCRTStartup
+     1>C:\CPlusPlus\Read_Arguments\Debug\Read_Arguments.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\CPlusPlus\Read_Arguments\Read_Arguments\Read_Arguments.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.22

@@ -1,0 +1,27 @@
+﻿Build started 29/03/2012 4:39:12 PM.
+     1>Project "C:\CPlusPlus\TemplateMarch28th\TemplateMarch28th\TemplateMarch28th.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\TemplateMarch28th.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MytemplateClass.cpp
+         MytemplateClass.cpp
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(9): error C2146: syntax error : missing ';' before identifier 'values'
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(11): error C2061: syntax error : identifier 'T'
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(13): error C2065: 'values' : undeclared identifier
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(13): error C2065: 'first' : undeclared identifier
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(14): error C2065: 'values' : undeclared identifier
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(14): error C2065: 'second' : undeclared identifier
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(19): error C2065: 'values' : undeclared identifier
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(19): error C2228: left of '.size' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(21): error C2065: 'v' : undeclared identifier
+     1>c:\cplusplus\templatemarch28th\templatemarch28th\mytemplateclass.cpp(30): error C2661: 'MyPair::MyPair' : no overloaded function takes 2 arguments
+     1>Done Building Project "C:\CPlusPlus\TemplateMarch28th\TemplateMarch28th\TemplateMarch28th.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.61

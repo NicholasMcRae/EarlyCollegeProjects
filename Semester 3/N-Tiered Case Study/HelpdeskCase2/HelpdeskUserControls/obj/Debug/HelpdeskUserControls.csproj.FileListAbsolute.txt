@@ -1,0 +1,13 @@
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\bin\Debug\HelpdeskUserControls.dll
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\bin\Debug\HelpdeskUserControls.pdb
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\bin\Debug\HelpdeskBusinessUserObjects.dll
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\bin\Debug\HelpdeskBusinessUserObjects.pdb
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\obj\Debug\HelpdeskUserControls.csprojResolveAssemblyReference.cache
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\obj\Debug\EmployeeChooser.baml
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\obj\Debug\EmployeeChooser.g.cs
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\obj\Debug\HelpdeskUserControls_MarkupCompile.cache
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\obj\Debug\HelpdeskUserControls.g.resources
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\obj\Debug\HelpdeskUserControls.Properties.Resources.resources
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\obj\Debug\HelpdeskUserControls.csproj.GenerateResource.Cache
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\obj\Debug\HelpdeskUserControls.dll
+C:\CSDatabaseTwo\HelpdeskCase2\HelpdeskUserControls\obj\Debug\HelpdeskUserControls.pdb

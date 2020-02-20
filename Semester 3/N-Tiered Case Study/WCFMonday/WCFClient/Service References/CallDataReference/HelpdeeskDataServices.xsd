@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/HelpdeeskDataServices" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/HelpdeeskDataServices" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" />
+  <xs:complexType name="ArrayOfSerializedCall">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SerializedCall" nillable="true" type="tns:SerializedCall" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSerializedCall" nillable="true" type="tns:ArrayOfSerializedCall" />
+  <xs:complexType name="SerializedCall">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses" base="q1:ComplexObject">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CallID" type="xs:int" />
+          <xs:element minOccurs="0" name="DateClosed" nillable="true" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="DateOpened" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="EmployeeID" type="xs:int" />
+          <xs:element minOccurs="0" name="Notes" nillable="true" type="xs:base64Binary" />
+          <xs:element minOccurs="0" name="OpenStatus" nillable="true" type="xs:boolean" />
+          <xs:element minOccurs="0" name="ProblemID" type="xs:int" />
+          <xs:element minOccurs="0" name="TechID" type="xs:int" />
+          <xs:element minOccurs="0" name="Timer" nillable="true" type="xs:base64Binary" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SerializedCall" nillable="true" type="tns:SerializedCall" />
+</xs:schema>

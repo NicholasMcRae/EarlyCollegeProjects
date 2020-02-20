@@ -1,0 +1,448 @@
+﻿Build started 01/02/2012 5:45:01 PM.
+     1>Project "C:\CPlusPlus\StringDemo\StringDemo\StringDemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\StringDemo.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StringDemo.cpp
+         StringDemo.cpp
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(111): error C2001: newline in constant
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(112): error C2143: syntax error : missing ';' before 'if'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(123): error C2679: binary '<' : no operator found which takes a right-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+                 could be 'built-in C++ operator<(void *, void *)'
+                 while trying to match the argument list '(std::basic_ostream<_Elem,_Traits>, overloaded-function)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(458) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(458) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(458) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(458) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(344) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(344) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(344) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,std::basic_string<_Elem,_Traits,_Alloc> &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string(344) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Ty &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1128) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Ty &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1128) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Ty &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1128) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Ty &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1128) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1118) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1118) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1118) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1118) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1111) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1111) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1111) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1111) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1104) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1104) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1104) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1104) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1097) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1097) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1097) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1097) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1090) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1090) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1090) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1090) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1082) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1082) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1082) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1082) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1074) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1074) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1074) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,unsigned char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1074) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1067) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1067) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1067) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,unsigned char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1067) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1060) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1060) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1060) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,signed char &)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1060) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1053) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1053) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1053) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<char,_Traits> &std::operator >>(std::basic_istream<char,_Traits> &&,signed char *)' : could not deduce template argument for 'std::basic_istream<char,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1053) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1028) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1028) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1028) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Elem &)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(1028) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(987) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(987) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(987) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2784: 'std::basic_istream<_Elem,_Traits> &std::operator >>(std::basic_istream<_Elem,_Traits> &&,_Elem *)' : could not deduce template argument for 'std::basic_istream<_Elem,_Traits> &&' from 'std::basic_ostream<_Elem,_Traits>'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\istream(987) : see declaration of 'std::operator >>'
+     1>c:\cplusplus\stringdemo\stringdemo\stringdemo.cpp(138): error C2676: binary '>>' : 'std::basic_ostream<_Elem,_Traits>' does not define this operator or a conversion to a type acceptable to the predefined operator
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>Done Building Project "C:\CPlusPlus\StringDemo\StringDemo\StringDemo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.93

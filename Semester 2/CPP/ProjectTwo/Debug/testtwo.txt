@@ -1,0 +1,4 @@
+line 1: linelinelineline
+line 2: line
+line 4: line
+The search term appeared: 6 times.
